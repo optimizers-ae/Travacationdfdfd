@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #a17a5b; /* Book Now button color / brown */
+  --color-primary-dark: #8c684b;
+  --color-background: #fcf9f4; /* Light beige background */
+  --color-text-dark: #2d2621;
+  --color-text-light: #5a524c;
+  
+  --font-serif: "Playfair Display", serif;
+  --font-sans: "Inter", sans-serif;
+  --font-cursive: "Caveat", cursive;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-background);
+  color: var(--color-text-dark);
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
